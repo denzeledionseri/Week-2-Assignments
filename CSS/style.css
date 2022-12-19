@@ -1,0 +1,81 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: black;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section h1 {
+    color: black;
+    font-size: 30px;
+    padding: 2em;
+}
+
+section button {
+    border: 150px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 75px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+div {
+    width: 450px;
+    margin: auto;
+    color: black;
+}
+
+div img {
+    width: 400px;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+fieldset {
+    display: table-column;
+    padding: 2em;
+    align-content: space-between;
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    padding: 20px 20px;
+    font-size: 38px;
+    text-align: center;
+}
